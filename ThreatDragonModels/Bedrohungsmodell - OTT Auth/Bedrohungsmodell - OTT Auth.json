@@ -392,7 +392,8 @@
               "isEncrypted": false,
               "isPublicNetwork": false,
               "handlesCardPayment": null,
-              "isWebApplication": null
+              "isWebApplication": null,
+              "handlesGoodsOrServices": null
             }
           },
           {
@@ -723,6 +724,10 @@
             },
             "vertices": [
               {
+                "x": 640,
+                "y": -100
+              },
+              {
                 "x": 665,
                 "y": 30
               }
@@ -775,7 +780,7 @@
               ],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 13,
+                "informationDisclosure": 14,
                 "denialOfService": 0
               }
             },
@@ -793,8 +798,8 @@
             },
             "vertices": [
               {
-                "x": 1170,
-                "y": 100
+                "x": 1110,
+                "y": -40
               }
             ]
           },
