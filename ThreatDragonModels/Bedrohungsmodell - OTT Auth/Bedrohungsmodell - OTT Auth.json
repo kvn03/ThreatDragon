@@ -1387,7 +1387,7 @@
                   "status": "Mitigated",
                   "severity": "Low",
                   "type": "Spoofing",
-                  "description": "Spoofing: ein Angreifer könnte Zugriff auf den Signaturschlüssel des SIEM-Systems erhalten und Inhalte des Reports ändern, die abgeschickt werden.\n\nCAPEC-148: Content Spoofing - An adversary modifies content to make it contain something other than what the original content producer intended while keeping the apparent source of the content unchanged.\n\nT1565: Data Manipulation - Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity.\n\nD: 8 / R: 4 / E: 10 / A: 6 = 28",
+                  "description": "Spoofing: ein Angreifer könnte Zugriff auf den Signaturschlüssel des SIEM-Systems erhalten und Inhalte des Reports ändern, die abgeschickt werden.\n\nCAPEC-148: Content Spoofing - An adversary modifies content to make it contain something other than what the original content producer intended while keeping the apparent source of the content unchanged.\n\nT1565: Data Manipulation - Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity.\n\nD: 9 / R: 4 / E: 10 / A: 6 = 29",
                   "mitigation": "Schlüsseloperationen laufen nur über Hardware Sicherheitsmodul, Signatur automatisch prüfen und ggf. Alarm anzeigen\n\nMASVS-CRYPTO-2: The app performs key management according to industry best practices.\n\nD: 4 / R: 1 / E: 3 / A: 6 = 14",
                   "modelType": "STRIDE",
                   "new": false,
@@ -1396,13 +1396,20 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 23,
+                "spoofing": 26,
                 "tampering": 0,
-                "repudiation": 18,
+                "repudiation": 19,
                 "informationDisclosure": 0,
                 "denialOfService": 10,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
