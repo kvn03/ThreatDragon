@@ -1609,7 +1609,17 @@
                 "x": 470,
                 "y": -370
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -1720,8 +1730,8 @@
                 "y": -415
               },
               {
-                "x": 260,
-                "y": 180
+                "x": 340,
+                "y": 170
               }
             ]
           },
@@ -3065,7 +3075,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 22,
+                "spoofing": 23,
                 "tampering": 0,
                 "repudiation": 18,
                 "informationDisclosure": 0,
