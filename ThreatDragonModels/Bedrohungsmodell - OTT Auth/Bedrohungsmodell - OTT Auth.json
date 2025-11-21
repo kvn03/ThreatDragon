@@ -1604,16 +1604,6 @@
               "cell": "a1d5bbe6-465f-43bb-bd96-7ce687db37aa",
               "port": "2c939e89-865d-4bf0-aed3-f964b99e4c09"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": 470,
