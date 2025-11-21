@@ -1604,12 +1604,6 @@
               "cell": "a1d5bbe6-465f-43bb-bd96-7ce687db37aa",
               "port": "2c939e89-865d-4bf0-aed3-f964b99e4c09"
             },
-            "vertices": [
-              {
-                "x": 470,
-                "y": -370
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1619,7 +1613,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": -370
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -3067,7 +3067,7 @@
                   "severity": "Low",
                   "type": "Spoofing",
                   "description": "Spoofing: ein Angreifer könnte Zugriff auf den Signaturschlüssel des SIEM-Systems erhalten und Inhalte des Reports ändern, die abgeschickt werden.\n\nCAPEC-148: Content Spoofing - An adversary modifies content to make it contain something other than what the original content producer intended while keeping the apparent source of the content unchanged.\n\nT1565: Data Manipulation - Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity.\n\nD: 8 / R: 4 / E: 10 / A: 6 = 28",
-                  "mitigation": "Schlüsseloperationen laufen nur über Hardware Sicherheitsmodul, Signatur automatisch prüfen und ggf. Alarm anzeigen\n\nD3FEND: Message Authentication D3-MAN (Authenticating the sender of a message and ensuring message integrity.)\n\nD: 4 / R: 1 / E: 3 / A: 6 = 14",
+                  "mitigation": "Schlüsseloperationen laufen nur über Hardware Sicherheitsmodul, Signatur automatisch prüfen und ggf. Alarm anzeigen\n\nMASVS-CRYPTO-2: The app performs key management according to industry best practices.\n\nD: 4 / R: 1 / E: 3 / A: 6 = 14",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 126,
@@ -3075,7 +3075,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 20,
+                "spoofing": 22,
                 "tampering": 0,
                 "repudiation": 18,
                 "informationDisclosure": 0,
